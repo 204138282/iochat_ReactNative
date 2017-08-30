@@ -1,12 +1,12 @@
-使用方法：
+**使用方法:**  
 Terminal中：
-1、``$: npm init``		//配置package.json（逐项设置...）
-2、``$: cd ../../iochat``	//cd到创建的项目目录
-3、``$: node server``		//启动node服务
-4、在浏览器（推荐.谷歌浏览器）中地址栏输入“localhost:3000” 	//此时可看到效果
+- 1、``$: npm init``		//配置package.json（逐项设置...）
+- 2、``$: cd ../../iochat``	//cd到创建的项目目录
+- 3、``$: node server``		//启动node服务
+- 4、在浏览器（推荐.谷歌浏览器）中地址栏输入“localhost:3000” 	//此时可看到效果
 
 
-> **1、package.json文件配置  **
+> **1、package.json文件配置**
 ```JSX
 {
   "name": "iochat",
@@ -38,8 +38,9 @@ Terminal中：
 }
 ```
 
-> 2、创建文件（index.html和server.js）  
-+++++**server.js**
+> 2、创建文件（index.html和server.js）
+
+***server.js***
 ```JSX
 var express = require('express');
 var app = express();
@@ -63,7 +64,7 @@ io.sockets.on('connection', function (socket) {
 ............
 ```
 
-+++++**index.html**  
+***index.html***
 ```html
 <html>
 
@@ -87,6 +88,5 @@ io.sockets.on('connection', function (socket) {
 </body>
 
 </html>
-
-***其他内容请前往下载：[https://github.com/204138282/iochat_ReactNative](https://github.com/204138282/iochat_ReactNative)***
 ```
+***其他内容请前往下载：[https://github.com/204138282/iochat_ReactNative](https://github.com/204138282/iochat_ReactNative)***
